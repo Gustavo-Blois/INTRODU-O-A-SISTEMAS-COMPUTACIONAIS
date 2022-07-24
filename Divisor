@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+
+    int numerador;
+    int denominador;
+    int i = 0;
+    printf("Foneça numerador e denominador: ");
+    scanf("%d %d",&numerador, &denominador);
+if(denominador == 0){
+    printf("Zero não é um denominador permitido\n");
+}
+else{
+    while (numerador > 0)
+    {  
+        numerador -= denominador;
+        i++;
+    }
+      printf("%d\n",i);
+}
+
+
+  
+
+return 0;
+}
