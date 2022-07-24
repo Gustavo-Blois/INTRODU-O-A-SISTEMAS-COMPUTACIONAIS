@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(){
+
+ int num1,num2;
+ int num_s;
+ int i = 0;
+ int num_r = 0;
+ printf("Forneça dois números:");
+
+ scanf("%d %d",&num1,&num2);
+
+num_s = num1;
+
+while(i < num2){
+    num_r += num_s;
+    i++;
+}
+
+printf("\nResultado: ");
+printf("%d\n",num_r);
+    return 0;
+}
